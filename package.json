@@ -1,0 +1,47 @@
+{
+  "name": "fullstack-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "vite ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@mantine/carousel": "^8.3.18",
+    "@mantine/charts": "^8.3.18",
+    "@mantine/code-highlight": "^8.3.18",
+    "@mantine/core": "^8.3.18",
+    "@mantine/dates": "^8.3.18",
+    "@mantine/dropzone": "^8.3.18",
+    "@mantine/form": "^8.3.18",
+    "@mantine/hooks": "^8.3.18",
+    "@mantine/modals": "^8.3.18",
+    "@mantine/notifications": "^8.3.18",
+    "@mantine/nprogress": "^8.3.18",
+    "@mantine/spotlight": "^8.3.18",
+    "@mantine/tiptap": "^8.3.18",
+    "@tiptap/extension-link": "^3.20.5",
+    "@tiptap/pm": "^3.20.5",
+    "@tiptap/react": "^3.20.5",
+    "@tiptap/starter-kit": "^3.20.5",
+    "@types/node": "^25.5.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "dayjs": "^1.11.20",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "express": "^5.2.1",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.8.0",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.8",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}
