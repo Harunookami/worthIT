@@ -2,22 +2,21 @@ import '@mantine/core/styles.css';
 import { Container, 
     MantineProvider, 
     Title, 
-    Text
+    Text,
+    AppShell
  } from '@mantine/core';
-import { Input } from '@mantine/core';
+ import { Header } from './components/Header';
 
 
 export default () => {
     return (
-        <MantineProvider  defaultColorScheme='dark'>
-           <Container size="sm" py = "xl">
-                <Title order={1} ta="center" c="blue">
-                    Worth IT?!
-                </Title>
-                <Text ta="center" c="dimmed" mb="sm">
-                    Descubra o verdadeiro custo das suas compras em tempo de vida.
-                </Text>
-           </Container>
-        </MantineProvider>
+
+        <AppShell
+        header={{height:60}}
+        padding="md"
+        >
+        <Header />
+        </AppShell>
+        
     )
 } 
